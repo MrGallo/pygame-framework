@@ -12,3 +12,7 @@ The framework is a module, so you may run it by typing `$ python -m game` in the
 You may remove the play, title, and pause screen files to make your own, or simply modify them in place.
 
 You may also use the `template_view.py` file as a template for your new views.
+
+## Testing
+You may add tests following the example in `tests/test_example.py`. Make sure you import from the game module as is shown. All you need to do to run the tests is type `$ pytest` in the terminal from the project root directory.
+
