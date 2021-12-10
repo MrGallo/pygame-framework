@@ -1,2 +1,12 @@
 # pygame-framework
 Class-based pygame framework for simplified view-switching. 
+
+The framework is a module, so you may run it by typing `$ python -m game` in the terminal (in this directory). The `game` folder is pre-loaded with some example code to highlight certain capabilities.
+
+- View switching (`TitleView`, `PlayView`, `PauseView`)
+- Pause screens retaining original game (`PlayView`) state and returning control back to the game.
+- Passing info between views (`PauseView` quitting to `TitleView` sends the most recent score)
+- Accessing world boundary within views (to make the ball bounce off the sides of the screen in the `PlayView`)
+
+## Modification
+You may remove the play, title, and pause screen files to make your own, or simply modify them in place.
